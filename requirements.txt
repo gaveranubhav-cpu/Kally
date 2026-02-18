@@ -1,4 +1,4 @@
-# --- Database Fix (Python 3.11 compatibility ke liye) ---
+# --- Database & Async Fix (Python 3.11 compatibility) ---
 motor>=3.3.0
 pymongo[srv]>=4.6.0
 marshmallow==3.14.1
@@ -9,6 +9,10 @@ dnspython==2.3.0
 Pyrogram>=2.0.106
 tgcrypto
 pyromod
+
+# --- Shortener & AI ---
+shortzy
+openai
 
 # --- Image & Media ---
 Pillow>=10.2.0
@@ -46,6 +50,5 @@ wheel
 colorama
 
 # --- External ---
-openai
 git+https://github.com/Joelkb/cinemagoer
 PyLeaves==1.0.2
