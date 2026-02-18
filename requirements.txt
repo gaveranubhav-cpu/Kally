@@ -1,4 +1,3 @@
-# --- Core Frameworks ---
 Pyrogram>=2.0.106
 tgcrypto
 pymongo[srv]>=4.6.0
@@ -12,28 +11,20 @@ shortzy
 datetime
 pytz
 aiohttp
-
-# --- Master / Dependencies ---
 PyLeaves==1.0.2
-
-# --- YTDL & Media ---
 ffmpeg-python>=0.2.0
 youtube-search
-youtube-search-python==1.4.6
+youtube-search-python
 yt-dlp
 youtube-dl
 ytthumb
-
-# --- Image & Processing ---
 opencv-python-headless
 Pillow>=10.2.0
 gTTS==2.3.1
 NumPy
-
-# --- Utilities ---
 python-dotenv==0.21.1
 telegraph==2.2.0
-googletrans==3.1.0a0
+googletrans==4.0.0-rc1
 speedtest-cli
 humanize>=4.6.0
 psutil>=5.9.4
@@ -48,6 +39,5 @@ apscheduler
 pyshorteners
 pyromod
 colorama
-
-# --- AI ---
-openai>=1.0.0
+openai
+httpx==0.24.1
