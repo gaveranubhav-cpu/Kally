@@ -1,8 +1,8 @@
-# --- Database & Schema Fix (AttributeError 'StringField' solve karne ke liye) ---
+# --- Database Fix (Python 3.11 compatibility ke liye) ---
+motor>=3.3.0
+pymongo[srv]>=4.6.0
 marshmallow==3.14.1
 umongo==3.1.0
-motor==2.5.1
-pymongo[srv]==3.12.3
 dnspython==2.3.0
 
 # --- Telegram Framework ---
@@ -10,7 +10,7 @@ Pyrogram>=2.0.106
 tgcrypto
 pyromod
 
-# --- Image & Media Fix (Pillow KeyError aur Python 3.11+ compatibility ke liye) ---
+# --- Image & Media ---
 Pillow>=10.2.0
 opencv-python-headless
 ffmpeg-python>=0.2.0
@@ -21,7 +21,7 @@ youtube-search
 youtube-search-python
 ytthumb
 
-# --- Connection & Translation Fix (httpx Conflict solve karne ke liye) ---
+# --- Connection & Translation ---
 requests
 aiohttp
 aiofiles
@@ -31,7 +31,7 @@ googletrans-py
 python-dotenv==0.21.1
 python-decouple
 
-# --- Other Utilities ---
+# --- Utilities ---
 jinja2
 apscheduler
 pyshorteners
@@ -45,7 +45,7 @@ datetime
 wheel
 colorama
 
-# --- AI & External ---
+# --- External ---
 openai
 git+https://github.com/Joelkb/cinemagoer
 PyLeaves==1.0.2
