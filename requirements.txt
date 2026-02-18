@@ -24,7 +24,7 @@ gTTS==2.3.1
 NumPy
 python-dotenv==0.21.1
 telegraph==2.2.0
-googletrans==4.0.0-rc1
+googletrans-py
 speedtest-cli
 humanize>=4.6.0
 psutil>=5.9.4
@@ -40,4 +40,3 @@ pyshorteners
 pyromod
 colorama
 openai
-httpx==0.24.1
